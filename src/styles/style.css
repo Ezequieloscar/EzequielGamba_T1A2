@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 99;
+}
+
+.logoE {
+    height: 50px;
+    display: block;
+}
+
+.nav-content-wrapper a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.nav-content-wrapper {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    padding: 10px;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: lightblue;
+}
+
+.mypicture {
+    width: 20%;
+}
+
+
+.button-enter {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 8px 16px;
+    margin-top: 20px;
+}
+
+
+
+/* Tablet y Mobile */
+@media only screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-content-wrapper {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #f9f9f9;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .menu-toggle:checked+.menu-icon+.nav-content-wrapper {
+        display: block;
+    }
+
+    .nav-content-wrapper a {
+        display: block;
+        padding: 10px 0;
+    }
+}
+
+
+.menu-toggle {
+    display: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-content-wrapper {
+        display: flex;
+    }
+}
+
+
+h1, h2, h3, p, button, a, ul, li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    background-color: #6c757d;
+    padding: 10px;
+    text-align: center;
+    /* Centrar el contenido del footer */
+}
+
+.social-media-wrapper img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media-wrapper img:hover {
+    transform: scale(1.1);
+}
