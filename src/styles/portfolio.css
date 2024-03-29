@@ -1,3 +1,21 @@
+:root {
+    /* CSS HEX */
+--timberwolf: #dad7cdff;
+--sage: #a3b18aff;
+--fern-green: #588157ff;
+--hunter-green: #3a5a40ff;
+--brunswick-green: #344e41ff;
+}
+
+
+
+
+
+
+
+
+
+
 .section {
     display: flex;
     flex-direction: column;
@@ -38,7 +56,7 @@
 }
 
 .content-wrapper {
-    background-color: aquamarine;
+    background-color: var(--sage);
     padding: 16px;
     flex-grow: 1;
     align-items: center;

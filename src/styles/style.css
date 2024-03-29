@@ -1,18 +1,29 @@
+:root {
+    /* CSS HEX */
+--timberwolf: #dad7cdff;
+--sage: #a3b18aff;
+--fern-green: #588157ff;
+--hunter-green: #3a5a40ff;
+--brunswick-green: #344e41ff;
+}
+
+
+
+
+
+
+
 body {
     margin: 0;
 }
 
-
-a {
-    cursor: pointer;
-}
 
 
 .navbar {
     position: fixed;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: var(--sage);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +58,7 @@ a {
 
 
 .section {
-    background-color: orange;
+    background-color: var(--fern-green);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +76,7 @@ a {
 }
 
 .button:hover {
-    background-color: lightblue;
+    background-color: #6c757d;
 }
 
 .mypicture {
@@ -87,7 +98,7 @@ a {
 }
 
 .button-enter {
-    background-color: yellow;
+    background-color: var(--sage);
     border: 2px solid black;
     padding: 8px 16px;
     margin-top: 20px;
@@ -95,7 +106,7 @@ a {
 
 
 
-/* Tablet y Mobile */
+/* Tablet and Mobile */
 @media only screen and (max-width: 768px) {
     .menu-icon {
         display: block;
@@ -144,7 +155,7 @@ h1, h2, h3, p, button, a, ul, li {
 }
 
 .footer {
-    background-color: #6c757d;
+    background-color: var(--hunter-green);
     padding: 10px;
     text-align: center;
     /* Centrar el contenido del footer */

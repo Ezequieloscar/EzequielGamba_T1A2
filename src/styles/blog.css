@@ -1,3 +1,16 @@
+:root {
+    /* CSS HEX */
+--timberwolf: #dad7cdff;
+--sage: #a3b18aff;
+--fern-green: #588157ff;
+--hunter-green: #3a5a40ff;
+--brunswick-green: #344e41ff;
+}
+
+
+
+
+
 .section {
     padding: 10px;
     box-sizing: border-box;
@@ -19,11 +32,12 @@ h3 {
     align-items: center;
     margin-bottom: 10px;
     padding: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(73, 72, 72);    
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
     width: 60%;
+    background-color: var(--sage);
 }
    
 
@@ -56,7 +70,7 @@ h3 {
 }
 
 .column:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 16px rgb(0, 0, 0);
 }
 
 .a-link {
