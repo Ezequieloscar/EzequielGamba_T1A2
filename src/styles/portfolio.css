@@ -59,8 +59,15 @@
     width: 100px;
 }
 
+.h2-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
 /* Media query para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     /* Cambiar a una sola columna en pantallas pequeñas */
     .grid-container {
@@ -72,4 +79,14 @@
         order: -1;
         margin-bottom: 0;
     }
+    .porttitle {
+        margin-top: 20%;
+    }
+    
 }
+
+.portbutton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+

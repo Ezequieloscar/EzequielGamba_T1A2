@@ -69,9 +69,22 @@ a {
 }
 
 .mypicture {
+    width: 50%;
+    border-radius: 20%;
     width: 20%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+
 }
 
+.mypicture:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
 
 .button-enter {
     background-color: yellow;
