@@ -104,6 +104,10 @@ body {
     margin-top: 20px;
 }
 
+.button-enter:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+
 
 
 /* Tablet and Mobile */
@@ -117,7 +121,7 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #f9f9f9;
+        background-color: var(--sage);
         width: 100%;
         text-align: center;
         z-index: 1;
