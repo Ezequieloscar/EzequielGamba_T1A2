@@ -6,6 +6,8 @@ Welcome to my portfolio website, This is my first time creating a website. In th
 
 * [Netlify](https://ezegamba.netlify.app/)
 
+* [Youtube](https://youtu.be/yFxfPUDTJzk)
+
 ---
 ### Purpose
 The purpose of my website is to showcase the skills and experiences that i have acquired up until now as an aspiring web developer as a student in the Coder Academy.
