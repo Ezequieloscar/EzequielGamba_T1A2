@@ -13,9 +13,10 @@
     text-shadow: 0 2px 0 black;
     padding: 1.5rem 2rem;
     box-shadow: 0 10px 50px -10px black;
+    /* Sumons the function of the keyframe for it to bounce */
     animation: cardAnimation 1s alternate infinite;
 }
-
+/* Animation bounce*/
 @keyframes cardAnimation {
     from {
         transform: translateY(-20px);
@@ -29,7 +30,7 @@
     
 }
 
-
+/* Main wrapper of the card */
 .card-center {
     display: flex;
     justify-content: center;
@@ -47,7 +48,7 @@
 .socialimg:hover {
     transform: scale(1.05);
 }
-
+/* Mobile and tablet view */
 @media screen and (max-width: 800px) {
     .card {
         width: 300px;

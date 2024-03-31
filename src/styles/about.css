@@ -20,7 +20,7 @@
     font-size: 16px;
     line-height: 1.5;
 }
-
+/* Mobile and tablet view */
 @media screen and (max-width: 768px) {
     .section {
         padding: 10px;
@@ -50,7 +50,7 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
 
-
+/* Mobile view makes image ajust to screen */
 @media screen and (max-width: 768px) {
 
     .image-wrapper {
@@ -58,7 +58,7 @@
     }
 
     .image {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 }

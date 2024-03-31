@@ -48,7 +48,7 @@ h3 {
     height: 300px;
     border-radius: 5%;
 }
-
+/* Mobile and Tablet view */
 @media screen and (max-width: 800px) {
     .column {
         flex-direction: column;
@@ -72,7 +72,7 @@ h3 {
 .column:hover {
     box-shadow: 10px 10px 16px rgb(0, 0, 0);
 }
-
+/*Makes the color stay the same as the rest of the web, instead of showing that have entered the link */
 .a-link {
     text-decoration: none;
     color: black;
